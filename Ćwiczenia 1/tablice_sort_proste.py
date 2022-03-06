@@ -3,9 +3,6 @@ def bubble(tab, l):
         for k in range(i):
             if tab[k] > tab[k+1]:
                 tab[k], tab[k+1] = tab[k+1], tab[k]
-                print(tab)
-            else:
-                print("pass")
 
 
 def insersion(tab, l):
