@@ -30,7 +30,7 @@ def build_heap(T):
         heapify(T, n, i)
 
 
-def heapsort(T):
+def heap_sort(T):
     n = len(T)
     build_heap(T)
     for i in range(n-1, 0, -1):
