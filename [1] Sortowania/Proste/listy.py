@@ -1,31 +1,7 @@
-import random
-
-
 class Node:
     def __init__(self, val, next=None):
         self.val = val
         self.next = next
-
-
-def gener(n=10, mx=99, mn=0):
-    wart = Node(None)
-    k = wart
-    for i in range(n):
-        k.next = Node(random.randint(mn, mx))
-        k = k.next
-    return wart.next
-
-
-def show(first):
-    if first is None:
-        print("(empty)")
-        return
-    print(first.val, end='')
-    k = first.next
-    while k is not None:
-        print(f' -> {k.val}', end='')
-        k = k.next
-    print("")
 
 
 # deleates max val and returns: (new_first, found_max)
@@ -55,11 +31,7 @@ def insert(first, item):
     return wart.next
 
 
-def copyN (a):
-    return Node(a.val, a.next)
-
-
-def insertionsort(first):
+def insertion_sort(first):
     if first is None or first.next is None:
         return first
 
@@ -76,7 +48,7 @@ def insertionsort(first):
     return wart.next
 
 
-def selectionsort(first):
+def selection_sort(first):
     wart = Node(None, first)
     k = wart
     while k.next.next is not None:
