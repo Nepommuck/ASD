@@ -1,11 +1,11 @@
-def bubble(tab, l):
+def bubble_sort(tab, l):
     for i in range(l-1, -1, -1):
         for k in range(i):
             if tab[k] > tab[k+1]:
                 tab[k], tab[k+1] = tab[k+1], tab[k]
 
 
-def insersion(tab, l):
+def insersion_sort(tab, l):
     for i in range(1, l):
         buf = tab[i]
         k = i-1
@@ -15,7 +15,7 @@ def insersion(tab, l):
         tab[k+1] = buf
 
 
-def selection(tab, l):
+def selection_sort(tab, l):
     for i in range(l-1):
         ind = i+1
         min = tab[ind]
