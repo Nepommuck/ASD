@@ -1,3 +1,5 @@
+# 2) Impreza 
+
 # Impreza jest dopuszczalna jeśli dla żadnego zaproszonego pracownika, jego szef nie został zaproszony. 
 # Wartością imprezy jest suma współczynników 'fun' zaproszonych.
 # Należy znaleźć wartość najlepszej legalnej imprezy.
