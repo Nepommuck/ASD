@@ -1,3 +1,5 @@
+# 1) Najdluższy rosnący podciąg
+
 # Znaleźć najdłuższy (niespójny) podciąg rosnący w tablicy. 
 # Wypisać jego 1) dlugość, 2) elementy
 
